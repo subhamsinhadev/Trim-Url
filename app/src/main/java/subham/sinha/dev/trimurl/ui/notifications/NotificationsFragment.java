@@ -53,7 +53,7 @@ public class NotificationsFragment extends Fragment {
                         "</ul>" +
                         "<p><b>👨‍💻 Developer:</b> Subham Kumar Sinha<br/>" +
                         "<b>📬 Email:</b> <a href='mailto:subhamsinha9206@gmail.com'>subhamsinha9206@gmail.com</a><br/>" +
-                        "<b>🔗 Portfolio:</b> <a href='https://subham.dev'>https://subham.dev</a><br/>" +
+//                        "<b>🔗 Portfolio:</b> <a href='https://subham.dev'>https://subham.dev</a><br/>" +
                         "<b>🔧 Source Code:</b> <a href='https://github.com/'>GitHub</a></p>" +
                         "<p>❤️ Thanks to the open-source community!</p>";
 
