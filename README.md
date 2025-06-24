@@ -1,6 +1,6 @@
 # ✂️ Trim URL - Android URL Shortener App
 
-[![GitHub stars](https://img.shields.io/github/stars/subhamsinhadev/trim-url.svg?style=social)](https://github.com/your-username/trim-url/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/subhamsinhadev/trim-url.svg?style=social)](https://github.com/subhamsinhadev/trim-url/stargazers)
 [![Made with Android](https://img.shields.io/badge/Made%20with-Android-green?logo=android)](#)
 [![API](https://img.shields.io/badge/API-CleanURI-blue)](https://cleanuri.com)
 [![OkHttp](https://img.shields.io/badge/Library-OkHttp3-orange?logo=okhttp)](https://square.github.io/okhttp/)
@@ -52,7 +52,16 @@
 | **Lottie**      | Smooth Vector Animations  |
 
 ---
+## 📦 Releases
 
+Grab the latest release of Trim URL and try it out!
+
+👉 **[Download APK](https://github.com/subhamsinhadev/trim-url/releases/download/Initial/Trim.URL.V1.0.apk)**  
+📄 **[View All Releases](https://github.com/subhamsinhadev/trim-url/releases)**  
+🆕 **Latest Version:** `v1.0.0`  
+🗓️ **Released on:** June 25, 2025
+
+---
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
@@ -98,6 +107,6 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 **Subham Kumar Sinha**  
-📧 [LinkedIn](https://www.linkedin.com/in/subham-sinha-ai)  
+📧 [LinkedIn](https://www.linkedin.com/in/subhamsinhadev)  
 
 
