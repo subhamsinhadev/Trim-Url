@@ -52,7 +52,16 @@
 | **Lottie**      | Smooth Vector Animations  |
 
 ---
+## 📦 Releases
 
+Grab the latest release of Trim URL and try it out!
+
+👉 **[Download APK](https://github.com/subhamsinhadev/trim-url/releases/latest/download/TrimURL.apk)**  
+📄 **[View All Releases](https://github.com/subhamsinhadev/trim-url/releases)**  
+🆕 **Latest Version:** `v1.0.0`  
+🗓️ **Released on:** June 25, 2025
+
+---
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
