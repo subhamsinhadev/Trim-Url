@@ -1,6 +1,6 @@
 # ✂️ Trim URL - Android URL Shortener App
 
-[![GitHub stars](https://img.shields.io/github/stars/subhamsinhadev/trim-url.svg?style=social)](https://github.com/your-username/trim-url/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/subhamsinhadev/trim-url.svg?style=social)](https://github.com/subhamsinhadev/trim-url/stargazers)
 [![Made with Android](https://img.shields.io/badge/Made%20with-Android-green?logo=android)](#)
 [![API](https://img.shields.io/badge/API-CleanURI-blue)](https://cleanuri.com)
 [![OkHttp](https://img.shields.io/badge/Library-OkHttp3-orange?logo=okhttp)](https://square.github.io/okhttp/)
