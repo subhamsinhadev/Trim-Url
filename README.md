@@ -98,6 +98,6 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 **Subham Kumar Sinha**  
-📧 [LinkedIn](https://www.linkedin.com/in/subham-sinha-ai)  
+📧 [LinkedIn](https://www.linkedin.com/in/subhamsinhadev)  
 
 
