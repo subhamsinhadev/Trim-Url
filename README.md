@@ -85,10 +85,12 @@ Contributions are what make the open-source community such an amazing place to l
 ## 🌟 Show your Support
 If you like the project, consider leaving a ⭐️ to help others discover it!
 1.⭐ Star this repository
+
 2.🔁 Share it with your friends
+
 3.🛠️ Fork and contribute to enhance it further!
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
