@@ -25,13 +25,17 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Dns;
 import okhttp3.FormBody;
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 import subham.sinha.dev.trimurl.R;
 import subham.sinha.dev.trimurl.databinding.FragmentHomeBinding;
@@ -56,7 +60,7 @@ public class HomeFragment extends Fragment {
 
 
 
-                String url_input=binding.input.getText().toString().trim().toLowerCase();
+                String url_input=binding.input.getText().toString().trim();
                 if(url_input.startsWith("http")&&!url_input.isEmpty()){
                     ShortUrl(url_input);
                     binding.shorts.setEnabled(false);
@@ -85,8 +89,16 @@ public class HomeFragment extends Fragment {
         //creatinh client
         OkHttpClient client =new OkHttpClient();
         client.newBuilder().dns(Dns.SYSTEM).build();
+        //encoding url
+
         //builiding body of the post method
-        FormBody body=new FormBody.Builder().add("url",url).build();
+        JSONObject json=new JSONObject();
+        try {
+            json.put("url",url);
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+        RequestBody body=RequestBody.create(json.toString(), MediaType.parse("application/json"));
         //post method
         Request request=new Request.Builder().url("https://cleanuri.com/api/v1/shorten").post(body).build() ;
         client.newCall(request).enqueue(new Callback() {
