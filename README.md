@@ -63,8 +63,6 @@ Open in Android Studio
 Build and Run on Emulator/Device
 
 Enjoy trimming URLs!
- 
-
 ❤️ Show Some Love
 ---
 ## 🧠 Learning Goals (for Developers)
