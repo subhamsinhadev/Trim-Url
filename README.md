@@ -84,6 +84,7 @@ Contributions are what make the open-source community such an amazing place to l
 5.Open a Pull Request
 ## 🌟 Show your Support
 If you like the project, consider leaving a ⭐️ to help others discover it!
+
 1.⭐ Star this repository
 
 2.🔁 Share it with your friends
