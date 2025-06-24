@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="top"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/icons"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        app:lottie_rawRes="@raw/icon" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Trim URL"
+        android:textSize="50dp"
+
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:fontFamily="@font/my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topv"
+        />
+
+    <subham.sinha.dev.trimurl.typewriter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Coded By Subham Kumar Sinha"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:fontFamily="@font/veronica"
+        />`
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:layout_marginTop="20dp"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp"
+        android:hint="Enter Your Url To Short">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/input"
+            android:gravity="left|center"
+            android:minHeight="50dp"
+            android:maxHeight="150dp"
+            android:padding="15dp"
+            android:completionThreshold="1"
+
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progressIndicator"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:indeterminateTint="#00BCD4" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loader"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/anim" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/shorts"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Short Link"
+        app:cornerRadius="10dp"
+        tools:layout_editor_absoluteX="145dp"
+        style="@style/Widget.Material3.Button"
+
+        tools:layout_editor_absoluteY="446dp"
+        tools:ignore="VisualLintButtonSize" />
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_margin="16dp"-->
+
+<!--        app:srcCompat="@drawable/ic_github" />-->
+
+
+
+</LinearLayout>

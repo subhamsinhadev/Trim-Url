@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/icons"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+
+            app:lottie_rawRes="@raw/credit" />
+        <TextView
+            android:id="@+id/credits_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credits and Acknowledgements"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/credits_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="left"
+            android:autoLink="none"
+            android:lineSpacingExtra="8dp"
+            android:textColor="?android:textColorSecondary"
+/>
+    </LinearLayout>
+</ScrollView>

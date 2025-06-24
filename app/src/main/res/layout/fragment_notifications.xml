@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="24dp"
+            app:strokeColor="?attr/colorPrimary"
+            app:strokeWidth="1dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center_horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/profile"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+                    android:contentDescription="Profile Image" />
+
+                <subham.sinha.dev.trimurl.typewriter
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Subham Kumar Sinha ."
+                    android:textSize="20sp"
+                    android:textAppearance="?attr/textAppearanceHeadlineSmall" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:text="As a Full Stack Android Developer, I have a passion for creating beautiful, functional, and user-friendly apps. I primarily write code in Java, focusing on clean architecture, smooth performance, and intuitive design."
+                    android:textAppearance="?attr/textAppearanceBodyMedium" />
+
+                <!-- Buttons -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/github"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:cornerRadius="10dp"
+                    android:drawableLeft="@drawable/ic_github"
+                    android:text="GitHub" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/email"
+                    app:cornerRadius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:text="Email" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/linkedin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_linkedin"
+                    android:text="LinkedIn"
+                    app:cornerRadius="10dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cornerRadius="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_twitter"
+                    android:text="Twitter" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/insta"
+                    android:layout_width="match_parent"
+                    app:cornerRadius="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_instagram"
+                    android:text="Instagram" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Credits Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/credits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_bandage"
+            android:layout_marginBottom="100dp"
+            android:text="Credits" />
+
+    </LinearLayout>
+</ScrollView>
