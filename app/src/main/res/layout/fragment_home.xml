@@ -29,16 +29,7 @@
         android:id="@+id/topv"
         />
 
-    <subham.sinha.dev.trimurl.typewriter
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Coded By Subham Kumar Sinha"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:visibility="gone"
-        android:fontFamily="@font/veronica"
-        />`
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
