@@ -25,18 +25,22 @@
 
 ## 📸 Screenshots
 
-| Home | Result | Lottie Animation |
-|------|--------|------------------|
-| ![home](screenshots/home.png) | ![result](screenshots/about.png) | ![animation](screenshots/credits.jpg) |
-
----
-<h2>🎬 Demo</h2>
-
 <p align="center">
-  <img src="screenshots/working-demo.gif" alt="Trim URL Demo" width="300"/>
+  <img src="screenshots/home.jpg" alt="Home Screen" width="30%" style="margin-right:10px;"/>
+  <img src="screenshots/about.jpg" alt="About Screen" width="30%" style="margin-right:10px;"/>
+  <img src="screenshots/credits.jpg" alt="Credits Screen" width="30%"/>
 </p>
 
 ---
+
+<h2 align="center">🎬 Demo</h2>
+
+<p align="center">
+  <img src="screenshots/working.gif" alt="Trim URL Demo" width="300"/>
+</p>
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology      | Use Case                  |
@@ -59,8 +63,6 @@ Open in Android Studio
 Build and Run on Emulator/Device
 
 Enjoy trimming URLs!
- 
-
 ❤️ Show Some Love
 ---
 ## 🧠 Learning Goals (for Developers)
