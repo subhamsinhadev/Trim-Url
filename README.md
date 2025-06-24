@@ -56,7 +56,7 @@
 
 Grab the latest release of Trim URL and try it out!
 
-👉 **[Download APK](https://github.com/subhamsinhadev/trim-url/releases/download/initial/Trim.URL.V1.0.apk)**  
+👉 **[Download APK](https://github.com/subhamsinhadev/trim-url/releases/download/Initial/Trim.URL.V1.0.apk)**  
 📄 **[View All Releases](https://github.com/subhamsinhadev/trim-url/releases)**  
 🆕 **Latest Version:** `v1.0.0`  
 🗓️ **Released on:** June 25, 2025
